@@ -28,8 +28,9 @@ public static void instanciando(Jogo[][] jogo){
 
 
 public static void desenharJogo(Jogo[][] jogo){
- System.out.println("                         JOGO DA VELHA\n\n\n\n\n\n");
- System.out.println ("  \u001B[31m       0    1    2\u001B[0m");
+  System.out.println("                         JOGO DA VELHA\n\n\n\n\n\n");
+  System.out.println("  \u001B[31m           Coluna \u001B[0m\n");
+  System.out.println("  \u001B[31m       0    1    2\u001B[0m");
   System.out.println("  \u001B[36mL\u001B[0m");
   System.out.printf("  \u001B[36mi  0\u001B[0m    %s | %s | %s   \n",jogo[0][0].getSimbolo(),jogo[0][1].getSimbolo(),jogo[0][2].getSimbolo());
   System.out.printf("  \u001B[36mn  1\u001B[0m    %s | %s | %s   \n",jogo[1][0].getSimbolo(),jogo[1][1].getSimbolo(),jogo[1][2].getSimbolo());
